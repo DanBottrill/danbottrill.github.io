@@ -214,6 +214,9 @@ h4 {
     height: 100vh;
     position: relative;
 }
+#flutter-app {
+    width: 75%;
+}
 .demo-banner {
     display: flex;
     flex-direction: column;
@@ -279,5 +282,8 @@ h4 {
     .examples-wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+    #flutter-app {
+        width: 100%;
     }
 }
