@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>L2T Wizard Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="bg-wrapper">
+            <header>
+                <nav id="navigation">
+                    <ul id="nav-bar">
+                        <li class="nav-item">
+                            Home
+                        </li>
+                        <li class="nav-item">
+                            About
+                        </li>
+                        <li class="nav-item">
+                            Contact
+                        </li>
+                    </ul>
+                    <button id="login-button" type="button">Login</button>
+                </nav>
+            </header>
+            <div class="aside-panel"><img class="logo" src="./images/logo_example.png"></div>
+            <div class="main-panel">
+                <h1 class="header-text">Modern Window Installation</h1>
+                <p class="body-text">New windows can help keep your home warm, quiet and safe. Our double-glazed uPVC windows, wooden windows and aluminium windows come in a variety of styles and colours to suit your home.</p>            
+                <br>
+                <p class="body-text">Our windows are Made in Britain with A++ to B energy performance ratings across the range of double glazing and triple glazing. Our top-performing A++ rated triple glazed windows are designed with energy-saving glazing technology to reduce heat loss even further.</p>
+                <div class="link-wrapper">
+                    <a href="#examples-section"><div class="link-box">See Range</div></a>
+                    <a href="#wizard-section"><div class="link-box">Custom Price</div></a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <div id="examples-section">
+            <h1 class="header-text">Browse Most Popular</h1>
+            <div class="examples-wrapper">
+                <div class="type-card">
+                    <i class='bx bxs-hot card-icon' ></i>
+                    <div class="more-text">
+                        <span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span>
+                    </div>
+                    <img class="card-image" src="./images/colored_windows.webp">
+                    <div class="card-title">
+                        <h4>Colored Windows</h4>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="more-text"><span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span></div><img class="card-image" src="./images/cottage_windows.webp">
+                    <div class="card-title">
+                        <h4>Cottage Windows</h4>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="more-text"><span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span></div><img class="card-image" src="./images/shaped_windows.webp">
+                    <div class="card-title">
+                        <h4>Shaped Windows</h4>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="more-text"><span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span></div><img class="card-image" src="./images/tilt_turn.webp">
+                    <div class="card-title">
+                        <h4>Tilt & Turn Windows</h4>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <i class='bx bxs-timer card-icon' ></i>
+                    <div class="more-text"><span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span></div><img class="card-image" src="./images/triple_glazing.webp">
+                    <div class="card-title">
+                        <h4>Triple Glazing</h4>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <i class='bx bxs-medal card-icon card-icon-dark'></i>
+                    <div class="more-text">
+                        <span class="material-symbols-outlined expand-more">
+                            expand_content
+                        </span></div><img class="card-image" src="./images/bay_windows.webp">
+                    <div class="card-title">
+                        <h4>Bay Windows</h4>
+                    </div>
+                </div>
+            </div>
+            <span class="blue-link">See full catalogue</span>
+        </div>
+        <div id="wizard-section">
+            <div class="demo-banner">
+                <p class="big-text">Place Pricing Wizard Here</p>
+                <br>
+                <span class="material-symbols-outlined animate__animated animate__wobble animate__repeat-2 animate__delay-3s waving-hand">
+                    waving_hand
+                    </span>
+            </div>
+        </div>
+        <a href="#navigation" id="top-scroller">
+            <span class="tooltip">back to top</span>
+            <span class="material-symbols-outlined back-to-top">
+                arrow_circle_up
+            </span>
+        </a>
+        <script src="./js/index.js" async defer></script>
+    </body>
+</html>
