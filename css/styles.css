@@ -213,10 +213,13 @@ h4 {
     background: #f3f6fb;
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 #flutter-app {
     width: 75%;
 }
+
 .demo-banner {
     display: flex;
     flex-direction: column;
@@ -285,5 +288,8 @@ h4 {
     }
     #flutter-app {
         width: 100%;
+    }
+    .hide {
+        display: none;
     }
 }
