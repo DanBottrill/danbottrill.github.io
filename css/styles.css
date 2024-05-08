@@ -36,7 +36,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(
-        "C:/Users/DanielBottrill/source/repos/L2T_wizard_demo/images/becca-tapert-sY5RjMB1KkE-unsplash.jpg");
+        "./images/becca-tapert-sY5RjMB1KkE-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
