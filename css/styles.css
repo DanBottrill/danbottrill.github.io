@@ -59,14 +59,14 @@
     cursor: pointer;
 }
 .main-panel {
-    width: 45%;
+    width: 55%;
     height: 70vh;
     background-color: rgba(28, 28, 28, 0.9);
     margin: 5%;
     float: right;
     display: flex;
     flex-direction: column;
-    padding: 4rem 3rem;
+    /* padding: 4rem 3rem; */
 }
 .aside-panel{
     position: absolute;
@@ -248,6 +248,12 @@ h4 {
 
 
 /*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1650px) {
+    .logo {
+        width: 425px;
+    }
+}
 
 @media only screen and (max-width: 1275px) {
     #examples-section {
