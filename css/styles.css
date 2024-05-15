@@ -60,9 +60,9 @@
 }
 .main-panel {
     width: 55%;
-    height: 70vh;
+    height: 88vh;
     background-color: rgba(28, 28, 28, 0.9);
-    margin: 5%;
+    margin-right: 5%;
     float: right;
     display: flex;
     flex-direction: column;
